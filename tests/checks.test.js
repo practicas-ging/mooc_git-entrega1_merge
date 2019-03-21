@@ -25,7 +25,7 @@ const student = args[2];
 const REPO_NAME = 'my_calculator';
 const BRANCH_NAME = 'remotes/origin/sine';
 const PATH_ASSIGNMENT = path.resolve(path.join(__dirname, "../"));
-const REPO_URL = `git://github.com/${student}/${REPO_NAME}.git`;
+const REPO_URL = `https://github.com/${student}/${REPO_NAME}.git`;
 const PATH_REPO = path.join(PATH_ASSIGNMENT, REPO_NAME);
 
 
